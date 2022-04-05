@@ -32,4 +32,4 @@ app.listen(PORT, () => {
   console.log(`server running on port ${PORT}`);
 });
 
-//npm i sequelize pg pg-hstore axios dotenv express cors
+// npm i sequelize pg pg-hstore axios dotenv express cors
