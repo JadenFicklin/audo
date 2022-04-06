@@ -1,0 +1,193 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.outer {
+  width: 100%;
+  height: 100vh;
+}
+.outer-shade {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.418);
+}
+.audo-header {
+  width: 100%;
+  height: 107px;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  font-size: 96px;
+  color: white;
+  font-weight: 600;
+
+  position: absolute;
+  top: -20px;
+}
+.audo-sub-header {
+  width: 100%;
+  height: 41px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 27px;
+  color: white;
+
+  position: absolute;
+  top: 20%;
+}
+.play-button-outer {
+  width: 100%;
+  height: 200px;
+  padding-top: 40px;
+  position: absolute;
+  top: 23%;
+  left: 47%;
+}
+.play-button {
+  cursor: pointer;
+  clip-path: polygon(100% 50%, 0 0, 0 100%);
+  background-color: white;
+  width: 130px;
+  height: 150px;
+}
+.add-margin {
+  padding-top: 25%;
+}
+.sounds-outer {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sounds-inner {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  transition: 0.3s;
+}
+.icons-holder {
+  width: 120px;
+  height: 150px;
+  margin: 0px 55px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.icons {
+  width: 100px;
+  height: 100px;
+  transition: 0.3s;
+  fill: #c0c0c0;
+}
+.icons:hover {
+  fill: white;
+}
+.icons-name {
+  color: #c0c0c0;
+  font-size: 18px;
+  font-weight: 600;
+}
+.icons-name:hover {
+  cursor: default;
+  color: white;
+}
+.more-backgrounds {
+  color: #c0c0c0;
+  font-size: 18px;
+  font-weight: 600;
+  z-index: 3;
+  background-color: #c0c0c000;
+  border: none;
+  position: absolute;
+  right: 60px;
+  bottom: 30px;
+}
+.more-backgrounds:hover {
+  cursor: pointer;
+  color: white;
+  z-index: 3;
+}
+.object-outer {
+  position: absolute;
+  width: 85%;
+  height: 500px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: flex-end;
+}
+.object-inner {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.pic {
+  cursor: pointer;
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
+.pic1 {
+  background-image: url("./assets/pictures/afternoon\ beach.jpg");
+}
+.pic2 {
+  background-image: url("./assets/pictures/birds.jpg");
+}
+.pic3 {
+  background-image: url("./assets/pictures/fan.jpg");
+}
+.pic4 {
+  background-image: url("./assets/pictures/firepit.jpg");
+}
+.pic5 {
+  background-image: url("./assets/pictures/hammock.jpg");
+}
+.pic6 {
+  background-image: url("./assets/pictures/hammock\ at\ beach.jpg");
+}
+.pic7 {
+  background-image: url("./assets/pictures/jungle.jpg");
+}
+.pic8 {
+  background-image: url("./assets/pictures/rain.jpg");
+}
+.pic9 {
+  background-image: url("./assets/pictures/river.jpg");
+}
+.pic10 {
+  background-image: url("./assets/pictures/rocks.jpg");
+}
+.pic11 {
+  background-image: url("./assets/pictures/sand.jpg");
+}
+.pic12 {
+  background-image: url("./assets/pictures/water\ droplets.jpg");
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  z-index: -1;
+}
